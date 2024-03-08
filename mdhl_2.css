@@ -1,0 +1,63 @@
+body{
+    background-color: greenyellow;
+    font-family: sans-serif;
+    background-image:  url(./imagen/design1_image1.jpg);
+    background-size: contain;
+}
+
+header{
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+nav{
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    right: 13px;
+}
+
+nav a{
+    background-color:rgb(35, 134, 187);
+    color: white;
+    border-radius: 0.5px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+a[href="#"]{
+    background-color: darkblue;
+}
+
+main img{
+    width: 89rem;
+    border: 2px solid black;
+}
+
+h4{
+    margin-top: -4px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: blue;
+}
+
+aside img{
+    border: 2px solid black;
+    height: 200px;
+    width: 180px;
+    position: absolute;
+    vertical-align: top;
+}
+
+section{
+    color:rgb(4, 4, 100);
+    margin-left: 200px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6{
+    font-size: 20px;
+}
