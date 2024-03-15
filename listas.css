@@ -17,7 +17,7 @@ nav{
 
 nav a{
     background-color:rgb(35, 134, 187);
-    color:darkblue;
+    color:white;
     border-radius: 0.5px;
     border: 2px solid black;
     text-decoration: none;
@@ -29,7 +29,7 @@ a[href="#"]{
 
 main img{
     width: 100%;
-    height: auto;
+    height: 350px;
 }
 
 h4{
@@ -64,4 +64,9 @@ p{
 
 li ol{
     list-style-type: lower-alpha;
+}
+
+footer p{
+    color: blue;
+    text-align: center;
 }
